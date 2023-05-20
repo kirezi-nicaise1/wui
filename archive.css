@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   padding: 3vw;
+    background-color: rgb(157, 151, 151);
+    color: bisque;
+}
+h1{
+    background-color: burlywood;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: burlywood;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    color: black;
+    height: 10vh;
+    padding: 3%;
+}

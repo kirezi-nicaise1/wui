@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+}
+.c{
+    opacity: 0.8;
+}
+.d{
+    opacity: 0.5;
+}
+.e{
+    opacity: 0.3;
+}
+.f{
+    opacity: 0.1;
+}
+.h{
+    opacity: 0;
+}
+.main{
+    display: flex;
+}
+#button{
+    color: rgb(16, 137, 181);
+    width: 15 0px;
+    height: 50px;
+}
+.g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 500px;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    0%{transform: translateY(-1em);}
+    50%{transform: translateY(0);}
+    100%{transform: translateY(-1em);}
+}
+h1{
+    position: fixed;
+    top: 0;
+    background-color:burlywood;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2% 2% 4% rgba(0, 0, 0, 0.5);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color:burlywood;
+    width: 100%;
+    font-size: large;
+    height: 30px;
+    text-align: center;
+}
+body{
+    background-color: rgb(157, 151, 151);
+     user-select: none;
+    pointer-events: none; 
+}
+.sub{
+    opacity: 0.2;
+}
+.sub1{
+    opacity: 0.1;
+}
+.sub2{
+    opacity: 0;
+}
+.sub3{
+    opacity: 0.1;
+}.sub4{
+    opacity: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-size: 18px;
+}a:hover{
+    background-color: blueviolet;
+}
+a:visited{
+    text-decoration: underline blue;
+    color: blue;
+}
+

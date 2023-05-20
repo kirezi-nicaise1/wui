@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(157, 151, 151);
+}
+header{
+    /* display: flex; */
+    background-color:burlywood;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 1vw;
+}
+.footer{
+    background-color: burlywood;
+    text-align: center;
+    padding: 5vh;
+    position: fixed;
+    bottom: 0;
+    height: 15vh;
+    width: 100vw;
+    margin-top: 1vh;
+    
+}
+header+p{
+    color: bisque;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+a:hover{
+    background-color: blueviolet;
+}
+a:visited{
+    text-decoration: underline blue;
+    color: blue;
+}

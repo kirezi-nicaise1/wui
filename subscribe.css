@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace ;
+    color: bisque;
+   
+}
+
+#submit,#email{
+   margin: 1%;
+}
+.form{
+    padding: 3%;
+   width: 90vw;
+   height:50vh
+}
+#submit{
+    display: block;
+    color: rgb(185, 177, 177);
+}
+.submit,.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    background-color: rgb(157, 151, 151);
+}
+body{
+    background-color:  rgb(157, 151, 151);
+}
